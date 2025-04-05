@@ -10,7 +10,7 @@
 #
 # https://myheadscale.example.com:443
 #
-server_url: https://headscale.cloud.easyselfhost.com
+server_url: https://headscale.0newrt.web.id
 
 # Address to listen to / bind to on the server
 #
@@ -268,7 +268,7 @@ dns:
   # `base_domain` must be a FQDN, without the trailing dot.
   # The FQDN of the hosts will be
   # `hostname.base_domain` (e.g., _myhost.example.com_).
-  base_domain: ezsh.net
+  base_domain: 0newrt.net
 
   # List of DNS servers to expose to clients.
   nameservers:
