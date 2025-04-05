@@ -43,7 +43,7 @@ services:
       - TS_AUTHKEY=${TS_AUTH_KEY}
       - TS_STATE_DIR=/var/lib/tailscale
       - TS_USERSPACE=false
-      - TS_EXTRA_ARGS=--login-server=https://headscale.cloud.easyselfhost.com
+      - TS_EXTRA_ARGS=--login-server=https://headscale.0newrt.my.id
     network_mode: "service:caddy-tailscale"
     volumes:
       - tailscale:/var/lib/tailscale
